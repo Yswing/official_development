@@ -16,8 +16,8 @@ token_data = {
     'client_id': client_id,
     'client_secret': client_secret,
     'scope': 'user.read',  # 根据你的需要调整权限范围
-    'username': username,
-    'password': password
+    'username': username,  # Here should be the account number
+    'password': password  # here should be the password
 }
 
 # 发送请求获取Access Token
